@@ -1,0 +1,47 @@
+Introduction to react | virtual dom| part - 2 ;
+
+---------------------------------------------------------------------------------
+MVC = model view controller 
+it's a backend technology ;
+
+in backend there's a thing called model , view , controller ;
+
+MVC is used there  : where it cotains the same front-end and back-end structure ; which contains back-end and front-end on the same applciation ;
+
+controller is API ; 
+
+But now since back-end and front-end works on different things so we don't have MVC today's we have only MC : model + controller ;
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+On windows we have both npm and npx 
+while on mac and linux there is no use of npx we only use npm 
+
+npx create-react-app my-app		//creat-react-app is an external library which helps us to install react on our pc
+now move to that folder then , run yarn start or npm start ;
+
+---------------------------------------------------------------------------------
+React application is being created by using npx create-react-app my-app
+
+we do all things like css and jsx js in src folder only : 
+
+JSX - Javascript XML
+
+Remember the codes which we see written like html in react files are not html those are JSX 
+
+index.js - starting point of application 
+app.js - this is the main file where we add all things ;
+
+App.test.js : it is the file in which with the help of zest library we do checking of developed things whatso we develop its developer role to check at first hand .
+
+zest is inbuilt library for testing ;
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+In order to run the react app you have to be in that same repo in which react is created ;
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+In our react : react uses very advanced javascript and so our browser may happen that they will not understand that advanced level of javascript so : babel what do : babel converts the high level javascripts to browser understandable javascript ; so that the browser can render it easily ;
+
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------

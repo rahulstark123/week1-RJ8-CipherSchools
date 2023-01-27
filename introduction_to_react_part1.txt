@@ -1,0 +1,69 @@
+Introduction to react | virtual dom| part - 1 ;
+
+----------------------------------------------------------
+Let say if someone wants to access some website like : www.facebook.com 
+so that person1 will request the server for facebook.com with his laptop ;
+
+in "IT World " when we wants to visit some website : every domain has its IP address ;
+Every device which is connected to internet has an unique IP address and so "Facebook.com" is also running on some computer which is providing service 24*7;
+
+so every network has 3 layers : 
+
+person1(device) --> Front-End Device --> Back-End Device --> Database
+ 					   React			  
+
+so person1 interact with Front-End device always , which is also called client side ;
+So when the person1 asks for facebook.com from Front-End : it returns the HTML , CSS , JS file to browser and so browser renders the file and show the output to the person1;
+-----------------------
+-----------------------
+Now page is loaded now as person1 write the id and password if the password is correct we gets the access for the data and if the password is wrong it shows that you have entered and invalid password how this happens ??
+
+When we try to login : we write the id and password so understand this we are writing on our own device not on server or so because we have downloaded the HTML CSS JS file for that site now it is being rendered only on our device so anything we we write id/password is written on our device only ;
+
+Now when we click on login button it send the data person1 device sends the data to front-end device : and front-end device asks the back-end device whether the input data is correct or not ??
+
+->Understand technically back-end do not store any data it just computes what we want and asks for database : database is actual where every data is stored ;;
+
+So backend checks the data and then sends that to front-end and then front-end shows the next page what so be coded to show ;
+
+----------------------------------------------------------
+----------------------------------------------------------
+Now in case of react-native : on phones 
+
+person1(application is installed ) ---> back-end-device ---> server ;
+
+front-end is itself in application which is installed ;
+So phone directly talk to back-end;
+
+----------------------------------------------------------
+----------------------------------------------------------
+In older time : back-end + font-end was on the same device 
+
+person1(device) ----> back-end+front-end device ---> server 
+
+----------------------------------------------------------
+----------------------------------------------------------
+What is Real DOM ???
+Like we have 
+
+import React from 'react'
+
+
+export default function App() {
+    return (
+        <div>
+            <h1>Hello Rahul</h1>
+        </div>
+    )
+}
+
+now if we want to change the background-color then we can do it by using css file or by JS command like :
+document.getElementByTagName("h1")[0].style.backgroundColor = "red";
+
+so now background color changes to red ;
+
+So in react what happens : With the help of JS react changes the entire content as per needs ;
+
+------------------------------------------------------------------------
+
+So here in virtual DOM only that part which is changed is rendered again 
